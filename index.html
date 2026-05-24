@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>料理提案アプリ</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>料理提案アプリ</h1>
+    <p class="lead">家にある材料から作れる料理を探せます</p>
+
+    <div class="search-area">
+      <p>材料をカンマ区切りで入力してください</p>
+      <input
+        type="text"
+        id="ingredientsInput"
+        placeholder="例：にんじん, たまねぎ, お肉"
+      >
+      <button id="searchBtn">料理を探す</button>
+    </div>
+
+    <div id="recipeList" class="recipe-list"></div>
+  </div>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
